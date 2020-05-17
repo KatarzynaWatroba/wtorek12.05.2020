@@ -1,4 +1,4 @@
-#import time # LINIA I
+﻿#import time # LINIA I
 
 # Napisz pętlę for, która liczy do pięciu.
     # Ciało pętli: wyświetl w oknie konsoli numer iteracji i słowo "Mississippi".
@@ -20,6 +20,11 @@ Ideą jest dodanie słowa Mississippi do liczby przy odliczaniu sekund na głos,
 Twoje zadanie jest bardzo proste: napisz program, który używa pętli for do liczenia w ten sposób - do liczby pięć. Po policzeniu do pięciu, program powinien wyświetlić na ekranie końcową wiadomość "Ready or not, here I come!", co można bardzo niezobowiązująco przetłumaczyć jako "Szukam!".
 
 '''
-for i in range(5):
-    print("Missisipi")
+import time
+#for i in range (2, 6, 1):
+nazwy_cyfr = ["one", "two", "three", "four", "five"]
+print(nazwy_cyfr[1])
+for i in range(			5):
+    print(nazwy_cyfr[i] ,  "Missisipi")
+    time.sleep(3)
 print("redy or not, here i come!")
